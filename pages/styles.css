@@ -1,0 +1,9 @@
+@import url("../vendor/fonts.css");
+@import url("../blocks/header.css");
+@import url("../blocks/about.css");
+
+.page {
+  font-family: "Montserrat", sans-serif;
+  margin: 2% 18% 0% 18%;
+  background-color: rgb(255, 250, 250);
+}
