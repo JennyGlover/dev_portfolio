@@ -3,10 +3,4 @@
 @import url("../blocks/headernav.css");
 @import url("../blocks/header.css");
 @import url("../blocks/about.css");
-
-.page {
-  font-family: "Montserrat", sans-serif;
-  background-color: rgb(255, 250, 250);
-  color: rgb(42, 42, 42);
-  margin: 0;
-}
+@import url("../blocks/page.css");

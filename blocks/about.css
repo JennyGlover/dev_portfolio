@@ -11,15 +11,31 @@
   font-size: 40px;
 }
 .about__paragraph {
-  font-weight: 300;
   line-height: 30px;
   font-size: 20px;
   max-width: 600px;
 }
-.header__author-image {
+.about__author-image {
   width: 25%;
   height: 100%;
-  border: 4px solid rgb(255, 225, 225);
   border-radius: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.026);
+}
+.about__stack-containers {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  gap: 16px;
+}
+.about__stack-logo {
+  width: 80px;
+}
+.about-react-logo {
+  height: 76.9px;
+  width: 100%;
+}
+.about-paragraph-react {
+  position: relative;
+  bottom: 5px;
 }

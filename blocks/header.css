@@ -9,7 +9,6 @@
 .header__title {
   font-size: 35px;
   font-weight: 400;
-  color: rgb(216, 124, 119);
 }
 
 .header__subheading {
@@ -36,9 +35,6 @@
   padding: 16px 35px;
   margin-top: 20px;
   font-size: 18px;
-  color: white;
-  background-color: rgb(216, 124, 119);
-  border: 2px solid rgb(216, 124, 119);
   border-radius: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;

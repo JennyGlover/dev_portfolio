@@ -7,12 +7,16 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.nav__logo {
+.nav__day-logo,
+.nav__night-logo {
   width: 80px;
   height: 100%;
   margin-left: 8%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.nav-logo-off {
+  display: none;
 }
 .nav__sections {
   display: flex;
@@ -37,7 +41,6 @@
 }
 .nav__sections a:hover {
   text-decoration: none;
-  color: rgb(216, 124, 119);
 }
 
 .nav__icon {
