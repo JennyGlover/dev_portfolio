@@ -8,18 +8,41 @@
     <title>Jenny's Portfolio</title>
   </head>
   <body class="page">
+    <section class="switch">
+      <img
+        src="images/dayswitch.png"
+        alt="light switch"
+        srcset=""
+        class="switch__image switch__day-image"
+      />
+      <img
+        src="images/nightswitch.png"
+        alt="light switch "
+        srcset=""
+        class="switch__image switch__night-image switch__image-off"
+      />
+    </section>
+    <nav class="nav">
+      <img src="images/logo.png" alt="logo" class="nav__logo" />
+      <ol class="nav__sections">
+        <li class="nav__section"><a href="#about">About</a></li>
+        <li class="nav__section"><a href="#projects">Projects</a></li>
+        <li class="nav__section"><a href="#resume">Resume</a></li>
+        <li class="nav__section"><a href="#resume">Contact</a></li>
+        <a href="https://github.com/JennyGlover" target="_blank"
+          ><img src="images/github.svg" alt="github icon" class="nav__icon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jennygloversaunders/"
+          target="_blank"
+          ><img
+            src="images/linkedin-in (1).svg"
+            alt="Linkedin icon"
+            class="nav__icon"
+        /></a>
+      </ol>
+    </nav>
     <header class="header">
-      <nav class="header__nav">
-        <img src="images/logo.png" alt="" class="header__logo" />
-        <div class="header__sections">
-          <p class="header__section">About</p>
-          <p class="header__section">Projects</p>
-          <p class="header__section">Resume</p>
-          <p class="header__section">Contact</p>
-          <img src="images/github.svg" alt="" class="header__icon" />
-          <img src="images/linkedin-in (1).svg" alt="" class="header__icon" />
-        </div>
-      </nav>
       <div class="header__text-content">
         <h1 class="header__title">Hi, I'm Jenny Saunders 👩🏾‍💻</h1>
         <p class="header__intro-summary">
@@ -29,14 +52,14 @@
           I am a
           <span class="header__bold-text">UI/UX Software Engineer</span> focused
           on building <span class="header__bold-text"> intuitive</span> and
-          accessible products and digital experiences that provide a
+          accessible products and digital products that provide a
           <span class="header__bold-text"> positive experience for users</span>.
         </p>
         <button class="header__button">Explore my creations!</button>
       </div>
     </header>
     <main class="content">
-      <section class="about">
+      <section class="about" id="about">
         <div>
           <h2 class="about__heading">About Me</h2>
           <p class="about__paragraph">
@@ -67,5 +90,6 @@
         />
       </section>
     </main>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
