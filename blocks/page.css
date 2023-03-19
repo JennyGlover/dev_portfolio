@@ -70,3 +70,15 @@
 .page-dark-mode .nav__sections a:hover {
   color: rgb(96, 143, 198);
 }
+
+.smoothScroll {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.smoothScroll.active {
+  transform: translateY(0);
+  opacity: 1;
+}
