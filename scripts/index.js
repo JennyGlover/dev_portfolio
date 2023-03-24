@@ -36,6 +36,7 @@ function toggleLight() {
     navIcons.forEach((icon) => {
       icon.style.filter = "invert(1)";
     });
+    navBar.style.backgroundColor = "#01021eb3";
     dayLogo.classList.toggle("nav-logo-off");
     nightLogo.classList.toggle("nav-logo-off");
     //logo.style.filter = "invert(1)";
@@ -44,6 +45,8 @@ function toggleLight() {
     navIcons.forEach((icon) => {
       icon.style.filter = "invert(0)";
     });
+    navBar.style.backgroundColor = "#fffafabe";
+
     dayLogo.classList.toggle("nav-logo-off");
     nightLogo.classList.toggle("nav-logo-off");
     //logo.style.filter = "invert(0)";

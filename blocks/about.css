@@ -30,19 +30,22 @@
   bottom: 20;
 }
 .about__author-image {
-  width: 320px;
+  width: 280px;
   border-radius: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.026);
   position: absolute;
-  bottom: 50px;
-  left: 60px;
+  bottom: 75px;
+  left: 106px;
   z-index: 1;
 }
-.about__author-animation {
-  width: 490px;
+.about__author-animated {
+  width: 500px;
   position: absolute;
   bottom: 10px;
   left: 0;
+
+  /* animation */
+  animation: spin 16s linear infinite;
 }
 .about__stack-containers {
   display: flex;
@@ -62,4 +65,13 @@
 .about-paragraph-react {
   position: relative;
   bottom: 5px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

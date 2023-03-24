@@ -27,11 +27,11 @@
 .page button {
   color: white;
   background-color: rgb(216, 124, 119);
-  border: 2px solid rgb(216, 124, 119);
+  border: 4px solid rgb(216, 124, 119);
 }
 
 .page .about__author-image {
-  border: 4px solid #ffad9f;
+  border: 4px solid rgb(255, 250, 250);
 }
 
 .page-dark-mode {
@@ -64,7 +64,7 @@
 }
 
 .page-dark-mode .about__author-image {
-  border: 4px solid rgb(46, 95, 180);
+  border: 4px solid rgb(3, 6, 51);
 }
 
 .page-dark-mode .nav__sections a:hover {
