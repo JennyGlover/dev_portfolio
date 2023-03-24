@@ -13,18 +13,36 @@
 .about__description-container {
   display: flex;
   align-items: center;
-  gap: 90px;
+  gap: 100px;
 }
 .about__paragraph {
   line-height: 30px;
   font-size: 20px;
   max-width: 600px;
 }
+.about__images {
+  position: relative;
+  top: 250px;
+}
+.about-image-relative {
+  position: relative;
+  top: 20;
+  bottom: 20;
+}
 .about__author-image {
-  width: 25%;
-  height: 100%;
+  width: 320px;
   border-radius: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.026);
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  z-index: 1;
+}
+.about__author-animation {
+  width: 490px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
 }
 .about__stack-containers {
   display: flex;

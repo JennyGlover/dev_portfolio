@@ -31,7 +31,7 @@
 }
 
 .page .about__author-image {
-  border: 4px solid rgb(255, 225, 225);
+  border: 4px solid #ffad9f;
 }
 
 .page-dark-mode {
@@ -64,7 +64,7 @@
 }
 
 .page-dark-mode .about__author-image {
-  border: 4px solid rgb(96, 143, 198);
+  border: 4px solid rgb(46, 95, 180);
 }
 
 .page-dark-mode .nav__sections a:hover {
