@@ -1,17 +1,19 @@
 .about {
   margin: 0px 18% 200px 18%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .about__heading {
-  margin-top: 200px;
+  margin-top: 240px;
   padding-top: 40px;
   font-weight: 500;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   font-size: 40px;
+}
+.about__description-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
 }
 .about__paragraph {
   line-height: 30px;
