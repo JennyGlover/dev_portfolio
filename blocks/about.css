@@ -30,12 +30,12 @@
   bottom: 20;
 }
 .about__author-image {
-  width: 280px;
+  width: 210px;
   border-radius: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.026);
   position: absolute;
-  bottom: 75px;
-  left: 106px;
+  bottom: 120px;
+  left: 150px;
   z-index: 1;
 }
 .about__author-animated {
@@ -46,6 +46,20 @@
 
   /* animation */
   animation: spin 16s linear infinite;
+}
+
+.about__author-dark-animated {
+  width: 800px;
+  position: absolute;
+  bottom: -190px;
+  left: -150px;
+
+  /* animation */
+  animation: spin 16s linear infinite;
+}
+
+.about-image-hidden {
+  display: none;
 }
 .about__stack-containers {
   display: flex;
