@@ -8,6 +8,8 @@ const dayLogo = document.querySelector(".nav__day-logo-link");
 const nightLogo = document.querySelector(".nav__night-logo-link");
 const dayImage = document.querySelector(".switch__day-image");
 const nightImage = document.querySelector(".switch__night-image");
+const flowerImage = document.querySelector(".about__author-animated");
+const solarImage = document.querySelector(".about__author-dark-animated");
 
 function scrollSmoothly() {
   let smoothScrolls = document.querySelectorAll(".smoothScroll");
@@ -39,6 +41,8 @@ function toggleLight() {
     navBar.style.backgroundColor = "#01021eb3";
     dayLogo.classList.toggle("nav-logo-off");
     nightLogo.classList.toggle("nav-logo-off");
+    flowerImage.classList.toggle("about-image-hidden");
+    solarImage.classList.toggle("about-image-hidden");
     //logo.style.filter = "invert(1)";
   } else if (!dayImage.classList.contains("switch-image-off")) {
     page.classList.toggle("page-dark-mode");
@@ -46,9 +50,10 @@ function toggleLight() {
       icon.style.filter = "invert(0)";
     });
     navBar.style.backgroundColor = "#fffafabe";
-
     dayLogo.classList.toggle("nav-logo-off");
     nightLogo.classList.toggle("nav-logo-off");
+    flowerImage.classList.toggle("about-image-hidden");
+    solarImage.classList.toggle("about-image-hidden");
     //logo.style.filter = "invert(0)";
   }
 }
