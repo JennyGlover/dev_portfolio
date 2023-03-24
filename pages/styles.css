@@ -4,15 +4,3 @@
 @import url("../blocks/header.css");
 @import url("../blocks/about.css");
 @import url("../blocks/page.css");
-
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-
-.reveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
