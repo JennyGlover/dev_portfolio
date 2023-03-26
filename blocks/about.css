@@ -8,7 +8,8 @@
   padding-top: 40px;
   font-weight: 500;
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: "Delicious Handrawn", cursive;
 }
 .about__description-container {
   display: flex;
@@ -17,7 +18,7 @@
 }
 .about__paragraph {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 24px;
   max-width: 600px;
 }
 .about__images {
@@ -63,6 +64,8 @@
 }
 .about__stack-containers {
   display: flex;
+  max-width: 450px;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
   position: relative;
@@ -70,14 +73,14 @@
 }
 
 .about__stack-logo {
-  width: 80px;
+  width: 50px;
 }
 .about__stack-logo:hover {
   animation: bounce 0.6s ease-in-out;
   cursor: pointer;
 }
-.about-react-logo {
-  height: 76.9px;
+.about-sm-logo {
+  height: 50.58px;
   width: 100%;
 }
 .about-paragraph-react {

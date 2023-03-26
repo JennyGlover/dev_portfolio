@@ -7,7 +7,7 @@
   margin: 200px 18% 140px 18%;
 }
 .header__title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -16,15 +16,16 @@
   font-size: 30px;
 }
 .header__intro-summary {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 600;
   line-height: 88px;
   margin: 0;
+  font-family: "Delicious Handrawn", cursive;
 }
 .header__intro {
   font-weight: 300;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 23px;
   max-width: 650px;
   font-weight: 400;
 }
@@ -32,11 +33,11 @@
   font-weight: 600;
 }
 .header__button {
-  padding: 16px 35px;
+  padding: 12px 35px;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 22px;
   border-radius: 28px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Delicious Handrawn", cursive;
   font-weight: 400;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.183);
