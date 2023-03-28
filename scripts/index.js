@@ -42,7 +42,7 @@ function toggleLight() {
       expressLogo.style.filter = "invert(1)";
       nodeLogo.style.filter = "invert(1)";
     });
-    navBar.style.backgroundColor = "#01021eb3";
+    navBar.style.backgroundColor = "#01021e73";
     dayLogo.classList.toggle("nav-logo-off");
     nightLogo.classList.toggle("nav-logo-off");
     flowerImage.classList.toggle("about-image-hidden");
