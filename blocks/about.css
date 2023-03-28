@@ -69,14 +69,14 @@
   text-align: center;
   align-items: center;
   position: relative;
-  gap: 16px;
+  gap: 18px;
 }
 
 .about__stack-logo {
   width: 50px;
 }
 .about__stack-logo:hover {
-  animation: bounce 0.9s ease-out;
+  animation: bounce 0.6s linear;
   cursor: pointer;
 }
 .about-sm-logo {
@@ -90,10 +90,6 @@
 .about-paragraph-react {
   position: relative;
   bottom: 5px;
-}
-
-.about-stack-inverted {
-  filter: invert(1);
 }
 
 @keyframes spin {

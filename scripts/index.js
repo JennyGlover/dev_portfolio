@@ -10,6 +10,8 @@ const dayImage = document.querySelector(".switch__day-image");
 const nightImage = document.querySelector(".switch__night-image");
 const flowerImage = document.querySelector(".about__author-animated");
 const solarImage = document.querySelector(".about__author-dark-animated");
+const expressLogo = document.querySelector("#express-logo");
+const nodeLogo = document.querySelector("#node-logo");
 
 function scrollSmoothly() {
   let smoothScrolls = document.querySelectorAll(".smoothScroll");
@@ -37,6 +39,8 @@ function toggleLight() {
     page.classList.toggle("page-dark-mode");
     navIcons.forEach((icon) => {
       icon.style.filter = "invert(1)";
+      expressLogo.style.filter = "invert(1)";
+      nodeLogo.style.filter = "invert(1)";
     });
     navBar.style.backgroundColor = "#01021eb3";
     dayLogo.classList.toggle("nav-logo-off");
@@ -54,6 +58,9 @@ function toggleLight() {
     nightLogo.classList.toggle("nav-logo-off");
     flowerImage.classList.toggle("about-image-hidden");
     solarImage.classList.toggle("about-image-hidden");
+    expressLogo.style.filter = "invert(0)";
+    nodeLogo.style.filter = "invert(0)";
+
     //logo.style.filter = "invert(0)";
   }
 }
